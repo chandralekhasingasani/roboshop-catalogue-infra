@@ -1,0 +1,15 @@
+COMPONENT = "catalogue"
+PROJECT_NAME = "roboshop"
+PORT           = 8080
+IAM_INSTANCE_PROFILE = false
+SPOT_INSTANCE_COUNT = 1
+INSTANCE_TYPE = "t3.micro"
+INSTANCE_COUNT = 0
+WORKSTATION_IP = "172.31.19.77/32"
+DOCDB_ENGINE              = "docdb"
+DOCDB_ENGINE_VERSION      = "4.0.0"
+DOCDB_INSTANCE_CLASS      = "db.t3.medium"
+DOCDB_NODE_COUNT          = 1
+DOCDB_FAMILY              = "docdb4.0"
+DOCDB_SKIP_FINAL_SNAPSHOT = true
+DBTYPE = "DOCUMENT_DB"
