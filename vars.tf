@@ -21,3 +21,6 @@ variable "DOCDB_SKIP_FINAL_SNAPSHOT" {}
 variable "FRONT_END_CIDR" {}
 variable "DBTYPE" {
 }
+variable "PROMETHEUS_IP" {
+  default = "172.31.90.202/32"
+}
